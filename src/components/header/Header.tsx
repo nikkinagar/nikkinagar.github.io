@@ -10,7 +10,7 @@ type Props = {}
 
 const Header = (props: Props) => {
   return (
-    <header className="container max-width mx-auto">
+    <header className="container max-width max-height">
       <div className="profile-picture">
         <img src={Avatar} alt="avatar" className="avatar" />
       </div>
